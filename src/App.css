@@ -99,9 +99,12 @@ nav {
   backdrop-filter: blur(10px);
   padding: 1rem;
   position: sticky;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
+  /* border-bottom-left-radius: 12px; */
+  /* border-bottom-right-radius: 12px; */
   top: 0;
+  left: 0;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
   z-index: 10;
 }
 
