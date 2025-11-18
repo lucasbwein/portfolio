@@ -58,6 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -98,6 +99,8 @@ nav {
   backdrop-filter: blur(10px);
   padding: 1rem;
   position: sticky;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   top: 0;
   z-index: 10;
 }
@@ -147,7 +150,7 @@ nav a:hover {
   max-width: 500px;
 }
 
-/* --- Projecst --- */
+/*  Projects */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -251,6 +254,12 @@ nav a:hover {
 .contact-links a:hover {
   background: #667eea;
   color: #fff;
+}
+
+.contact-email {
+  margin-top: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.95rem;
 }
 
 /* Mobile */

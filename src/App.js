@@ -23,9 +23,12 @@ export default function App() {
         <h2>About Me</h2>
         <p>
           {/* Senior at SDSU majoring in computer science. */}
-          Computer Science senior at San Diego State University. I build full-stack 
-          applications with React and enjoy creating tools that solve real problems - 
-          especially around personal growth and intentional living.
+          Computer Science senior at San Diego State University. I build React applications 
+          that solve real problems - tools for behavioral change, meaningful conversation, 
+          and intentional living. I believe the best software helps people and in my case,
+          it helps people become more aware of their patterns and make better choices. I
+          enjoy making applications that not only solve my problems, but can make an impact
+          on other people's lives too.
         </p>
       </section>
 
@@ -93,6 +96,7 @@ export default function App() {
           <a href="https://www.linkedin.com/in/lucasweinstein" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a href="https://github.com/lucasbwein" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
+        <p className="contact-email">lucasbwein@gmail.com</p>
       </section>
     </div>
   );
