@@ -53,7 +53,7 @@ export default function App() {
             <h3>Full Stack Todo</h3>
             <p>Complete CRUD application with user authentication and persistent storage.</p>
             <div className="project-tech">React • Node • MongoDB</div>
-            <a href="https://full-stack-todo-app-3v3p.onrender.com" target="_blank" rel="noopener noreferrer">View Code →</a>
+            <a href="https://full-stack-todo-app-3v3p.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo →</a>
           </div>
         </div>
       </section>
