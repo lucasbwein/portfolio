@@ -16,7 +16,9 @@ export default function App() {
       <section className="hero-section" id="hero">
         <h1>Lucas Weinstein</h1>
         <p className="hero-subtitle">CS Student</p>
-        <p className="hero-tagline">Building tools that help people be more intentional in their lives</p>
+        <p className="hero-tagline">
+          Graphics programmer building real-time rendering systems and meaningful applications
+        </p>
       </section>
 
       <section className="about-section" id="about_me">
