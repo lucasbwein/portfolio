@@ -35,14 +35,15 @@ export default function App() {
       <section className="projects-section" id="projects">
         <h2>Projects</h2>
 
-        <div className="project-card">
+        <div className="project-grid">
+          
+          <div className="project-card">
             <h3>Shell Texturing Fur Rendering</h3>
             <p>A real-time fur rendering implementation using the shell texturing technique in OpenGL.</p>
             <div className="project-tech">C++ • GLSL • OpenGL</div>
             <a href="https://github.com/lucasbwein/OpenGL-Shell-Texturing" target="_blank" rel="noopener noreferrer">Link →</a>
           </div>
 
-        <div className="project-grid">
           <div className="project-card">
             <h3>Replace the Urge</h3>
             <p>Behavioral change app that helps redirect unproductive urges into intentional actions. Tracks patterns, provides alternatives, and includes iOS automation for social media intention-setting.</p>
