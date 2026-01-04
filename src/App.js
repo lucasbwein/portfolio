@@ -55,6 +55,13 @@ export default function App() {
             <div className="project-tech">React • Node • MongoDB</div>
             <a href="https://full-stack-todo-app-3v3p.onrender.com" target="_blank" rel="noopener noreferrer">Live Demo →</a>
           </div>
+
+          <div className="project-card">
+            <h3>Rock, Paper, Scissors Multiplayer Game Server</h3>
+            <p>TCP-based multiplayer game with match making and state management.</p>
+            <div className="project-tech">C++ • select() • TCP Sockets</div>
+            <a href="https://github.com/lucasbwein/Rock-Paper-Scissors-Game" target="_blank" rel="noopener noreferrer">Link →</a>
+          </div>
         </div>
       </section>
 
