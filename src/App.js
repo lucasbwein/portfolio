@@ -15,7 +15,7 @@ export default function App() {
       
       <section className="hero-section" id="hero">
         <h1>Lucas Weinstein</h1>
-        <p className="hero-subtitle">CS Student & Devloper</p>
+        <p className="hero-subtitle">CS Student</p>
         <p className="hero-tagline">Building tools that help people be more intentional in their lives</p>
       </section>
 
@@ -23,12 +23,13 @@ export default function App() {
         <h2>About Me</h2>
         <p>
           {/* Senior at SDSU majoring in computer science. */}
-          Computer Science senior at San Diego State University. I build React applications 
-          that solve real problems - tools for behavioral change, meaningful conversation, 
-          and intentional living. I believe the best software helps people and in my case,
-          it helps people become more aware of their patterns and make better choices. I
-          enjoy making applications that not only solve my problems, but can make an impact
-          on other people's lives too.
+          Computer Science senior at San Diego State University exploring graphics programming, 
+          network systems, and full-stack development. I started with React applications for
+          behavioral change and meaningful conversation, then dove into systems programming
+          with multiplayer TCP servers, and recently into real-time graphics with OpenGL
+          shader development. I'm driven by curiosity - whether it's understanding how GPU
+          instanced rendering works, debugging race conditions in concurrent systems, or 
+          building tools that help people make better choices.
         </p>
       </section>
 
@@ -80,8 +81,10 @@ export default function App() {
           <div className="skill-category">
             <h3>Languages</h3>
             <div className="skill-tags">
-              <span>Java</span>
               <span>C++</span>
+              <span>OpenGL</span>
+              <span>GLSL</span>
+              <span>Java</span>
               <span>Python</span>
               <span>JavaScript</span>
             </div>
