@@ -156,7 +156,7 @@ const HIGHLIGHTS = [
   { number: '5+', label: 'Projects Built' },
   { number: '6', label: 'Languages' },
   { number: '3', label: 'Focus Areas' },
-  { number: 'SDSU', label: 'CS Senior' },
+  { number: 'Sony', label: 'Internship' },
 ];
 
 /* =============================================
@@ -275,7 +275,7 @@ export default function App() {
         {/* Hero */}
         <section className="hero" id="hero" aria-label="Introduction">
           <div className="hero__content">
-            <p className="hero__status">CS Senior at SDSU &middot; Open to Opportunities</p>
+            <p className="hero__status">Graphics Engineer &middot; Open to Opportunities</p>
             <h1>Lucas Weinstein</h1>
             <p className="hero__title">Graphics Programmer & Full-Stack Developer</p>
             <p className="hero__tagline">
@@ -311,8 +311,9 @@ export default function App() {
           <div className="about__content">
             <div className="about__text reveal">
               <p>
-                Computer Science senior at San Diego State University with a focus on
-                graphics programming, systems-level networking, and full-stack web development.
+                Graphics engineer specializing in real-time rendering, systems-level networking,
+                and full-stack web development. Currently finishing my CS degree at San Diego
+                State University.
               </p>
               <p>
                 I started with React apps for behavioral change and meaningful conversation,
@@ -429,7 +430,7 @@ export default function App() {
             Let's <span>Connect</span>
           </h2>
           <p className="contact__subtitle reveal">
-            Open to internships, collaborations, and conversations about
+            Open to roles, collaborations, and conversations about
             graphics programming and systems.
           </p>
           <div className="contact__buttons reveal">
