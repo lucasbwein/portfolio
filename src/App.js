@@ -72,10 +72,10 @@ const RESUME_URL = process.env.PUBLIC_URL + '/resume.pdf';
 const PROJECTS = [
   {
     id: 'raytrace',
-    title: 'CPU Ray Tracer',
+    title: 'GPU Ray Tracer',
     description:
-      'Physically-based ray tracer built from scratch. Implements recursive reflection and refraction, Phong shading, soft shadows, and accurate light transport across diffuse, specular, and transparent surfaces. All ray-scene intersection math written by hand — no rendering libraries.',
-    tech: ['C++', 'OpenGL', 'Linear Algebra'],
+      'Physically-based ray tracer built from scratch that went from 3 FPS to 60 FPS through GPU optimization. Implements recursive reflection and refraction, Phong shading, soft shadows, and accurate light transport across diffuse, specular, and transparent surfaces. All ray-scene intersection math written by hand — no rendering libraries.',
+    tech: ['C++', 'OpenGL', 'GLSL', 'Linear Algebra'],
     link: 'https://github.com/lucasbwein/CPU-Ray-Tracing',
     linkLabel: 'View on GitHub',
     image: process.env.PUBLIC_URL + '/demo-raytrace.jpg',
@@ -128,7 +128,7 @@ const SKILLS = [
   {
     icon: '\u{1F4BB}',
     title: 'Languages',
-    tags: ['C++', 'JavaScript', 'Python', 'Java', 'GLSL', 'GDScript'],
+    tags: ['C++', 'JavaScript', 'Python', 'GLSL', 'GDScript'],
   },
   {
     icon: '\u{1F4A0}',
@@ -144,11 +144,6 @@ const SKILLS = [
     icon: '\u{2699}\uFE0F',
     title: 'Backend & Systems',
     tags: ['Node.js', 'MongoDB', 'TCP/UDP Sockets', 'REST APIs'],
-  },
-  {
-    icon: '\u{1F3A8}',
-    title: 'Frontend',
-    tags: ['React', 'HTML/CSS', 'Responsive Design', 'UI/UX'],
   },
 ];
 
@@ -275,12 +270,12 @@ export default function App() {
         {/* Hero */}
         <section className="hero" id="hero" aria-label="Introduction">
           <div className="hero__content">
-            <p className="hero__status">Graphics Engineer &middot; Open to Opportunities</p>
+            <p className="hero__status">Graphics Engineer &middot; Available for Contract Work</p>
             <h1>Lucas Weinstein</h1>
-            <p className="hero__title">Graphics Programmer & Full-Stack Developer</p>
+            <p className="hero__title">Graphics Programmer & Rendering Engineer</p>
             <p className="hero__tagline">
-              I write ray tracers from scratch, build multiplayer servers
-              with raw sockets, and ship full-stack web apps.
+              I write ray tracers from scratch, build real-time rendering
+              systems, and optimize GPU performance.
             </p>
             <div className="hero__ctas">
               <a
@@ -311,24 +306,13 @@ export default function App() {
           <div className="about__content">
             <div className="about__text reveal">
               <p>
-                Graphics engineer specializing in real-time rendering, systems-level networking,
-                and full-stack web development. Currently finishing my CS degree at San Diego
-                State University.
-              </p>
-              <p>
-                I started with React apps for behavioral change and meaningful conversation,
-                then dove into systems programming — building multiplayer TCP servers with
-                concurrent I/O, and recently into real-time graphics with OpenGL shader
-                development, GPU instancing, and writing a ray tracer from scratch.
+                Graphics engineer specializing in real-time rendering and GPU optimization,
+                with an incoming internship at Sony Interactive Entertainment.
               </p>
               <p>
                 I'm driven by understanding how things work under the hood — whether
                 that's light transport through a scene, packet flow through a socket,
                 or state management across a networked game.
-              </p>
-              <p className="about__currently">
-                <strong>Currently exploring:</strong> PBR materials, shadow mapping
-                techniques, and cross-network multiplayer via WebRTC.
               </p>
             </div>
             <div className="about__highlights reveal-stagger">
